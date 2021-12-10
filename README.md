@@ -1,10 +1,12 @@
 # 基于Hadoop3的电信客服大数据项目
 
-项目运行虚拟环境百度云下载：:clap::clap::clap:
+> 本项目是基于电信客服大数据项目，将其原有使用的大数据框架进行升级，最后实现了一个可以自动采集大量数据、进行分布式存储并可以提供一个可供数据分析可视化的web操作例子。
+
+项目运行虚拟环境百度云下载：:clap:
 
 项目采用技术：Hadoop、Flume、Kafka、Hbase、Zookeeper、Maven、Spring、SpringMVC、Mybatis、Mysql、Redies、Echart。
 
-项目运行环境：Win10+16G+I7
+项目运行环境：Win10+16G+I7+VMware Workstation+Centos7
 
 | 项目要求                           | 是否完成  |
 | :--------------------------------- | :-------: |
@@ -72,26 +74,25 @@
 
 ### 3.2 项目运行环境搭建
 
-| 相关环境搭建相关文档    |                       详细解释跳转链接                       |
+| 环境搭建相关文档        |                       详细解释跳转链接                       |
 | :---------------------- | :----------------------------------------------------------: |
-| 模板虚拟机环境搭建      | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90.md) |
-| Hadoop分布式集群搭建    | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/BigGraph%E5%B5%8C%E5%85%A5%E5%90%91%E9%87%8F%E7%9B%B8%E4%BC%BC%E7%AD%89.md) |
-| Zookeeper分布式集群搭建 | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/Fasttext%E6%96%87%E6%9C%AC%E5%88%86%E7%B1%BB%E6%A8%A1%E5%9E%8B.md) |
+| 模板虚拟机环境搭建      |                        [:thumbsup:]()                        |
+| Hadoop分布式集群搭建    |                        [:thumbsup:]()                        |
+| Zookeeper分布式集群搭建 |                        [:thumbsup:]()                        |
 | Hbase分布式集群搭建     | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E5%AE%9E%E4%BD%93%E5%85%B3%E7%B3%BB%E6%8A%BD%E5%8F%96%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.md) |
-| Flume环境搭建           | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E5%85%B3%E9%94%AE%E8%AF%8D%E6%90%9C%E7%B4%A2%E7%9A%84%E5%AE%B9%E9%94%99%E6%80%A7%E5%92%8C%E5%88%86%E8%AF%8D%EF%BC%88%E5%81%8F%E5%90%91%E4%BA%8E%E5%8E%9F%E7%90%86%EF%BC%89.md) |
-| Kafka环境搭建           | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E4%B8%8D%E5%90%8C%E7%B1%BB%E5%9E%8B%E5%85%B3%E9%94%AE%E8%AF%8D%E6%90%9C%E7%B4%A2%E7%9F%A5%E8%AF%86.md) |
-| Mysql环境搭建           | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E6%90%9C%E7%B4%A2%E6%A1%86%E6%A3%80%E7%B4%A2%E5%8A%9F%E8%83%BD%EF%BC%88%E6%B5%81%E7%A8%8B%E5%9B%BE%EF%BC%89.md) |
-| Redies环境搭建          | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E5%9B%BE%E6%95%B0%E6%8D%AE%E5%BA%93neo4j.md) |
+| Flume环境搭建           |                        [:thumbsup:]()                        |
+| Kafka环境搭建           |                        [:thumbsup:]()                        |
+| Mysql环境搭建           |                        [:thumbsup:]()                        |
+| Redies环境搭建          |                        [:thumbsup:]()                        |
 
 ## 4.项目实现
 
-### 4.1 数据模拟
-
-### 4.2 数据采集
-
-### 4.3 数据分析
-
-### 4.4 数据展示
+| 项目实现相关文档 | 详细解释跳转链接 |
+| :--------------- | :--------------: |
+| 数据模拟         |  [:thumbsup:]()  |
+| 数据采集         |  [:thumbsup:]()  |
+| 数据分析         |  [:thumbsup:]()  |
+| 数据展示         |  [:thumbsup:]()  |
 
 ## 5.项目总结
 
