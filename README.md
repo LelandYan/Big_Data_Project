@@ -2,8 +2,6 @@
 
 > 本项目是基于电信客服大数据项目，将其原有使用的大数据框架进行升级，最后实现了一个可以自动采集大量数据、进行分布式存储并可以提供一个可供数据分析可视化的web操作例子。
 
-项目运行虚拟环境百度云下载：:clap:
-
 项目采用技术：Hadoop、Flume、Kafka、Hbase、Zookeeper、Maven、Spring、SpringMVC、Mybatis、Mysql、Redies、Echart。
 
 项目运行环境：Win10+16G+I7+VMware Workstation+Centos7
@@ -74,16 +72,23 @@
 
 ### 3.2 项目运行环境搭建
 
-| 环境搭建相关文档        |                       详细解释跳转链接                       |
-| :---------------------- | :----------------------------------------------------------: |
-| 模板虚拟机环境搭建      |                        [:thumbsup:]()                        |
-| Hadoop分布式集群搭建    |                        [:thumbsup:]()                        |
-| Zookeeper分布式集群搭建 |                        [:thumbsup:]()                        |
-| Hbase分布式集群搭建     | [:thumbsup:](https://github.com/LelandYan/ResearchRelationshipNetwork_KnowledgeGraph/blob/main/doc/%E5%AE%9E%E4%BD%93%E5%85%B3%E7%B3%BB%E6%8A%BD%E5%8F%96%E6%A8%A1%E5%9E%8B%E4%BB%8B%E7%BB%8D.md) |
-| Flume环境搭建           |                        [:thumbsup:]()                        |
-| Kafka环境搭建           |                        [:thumbsup:]()                        |
-| Mysql环境搭建           |                        [:thumbsup:]()                        |
-| Redies环境搭建          |                        [:thumbsup:]()                        |
+| 项目运行虚拟机环境  | 百度云下载地址 |
+| :------------------ | :------------: |
+| hadoop100（模板机） |     :clap:     |
+| hadoop102           |     :clap:     |
+| hadoop103           |     :clap:     |
+| hadoop104           |     :clap:     |
+
+| 环境搭建相关文档                | 详细文档跳转链接 |
+| :------------------------------ | :--------------: |
+| 模板虚拟机（hadoop100）环境搭建 |  [:thumbsup:]()  |
+| Hadoop分布式集群搭建            |  [:thumbsup:]()  |
+| Zookeeper分布式集群搭建         |  [:thumbsup:]()  |
+| Hbase分布式集群搭建             |  [:thumbsup:]()  |
+| Flume环境搭建                   |  [:thumbsup:]()  |
+| Kafka环境搭建                   |  [:thumbsup:]()  |
+| Mysql环境搭建                   |  [:thumbsup:]()  |
+| Redies环境搭建                  |  [:thumbsup:]()  |
 
 ## 4.项目实现
 
