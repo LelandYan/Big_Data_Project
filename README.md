@@ -4,9 +4,9 @@
 
 最后实现查询和结果页面为：
 
-![](imgs\2.png)
+<div align=center><img src="imgs\2.png" alt="Image text" />
 
-![](imgs\3.png)
+<div align=center><img src="imgs\3.png" alt="Image text" />
 
 ## 1.项目背景
 
@@ -18,7 +18,7 @@
 
 项目架构图如下图：
 
-![](imgs\1.png)
+<div align=center><img src="imgs\1.png" alt="Image text" />
 
 ## 3.项目运行环境与搭建
 
@@ -51,7 +51,7 @@
 
 虚拟机环境：
 
-|                  | hadoop102    | hadoop103 | hadoop104    |
+| 主机名称         | hadoop102    | hadoop103 | hadoop104    |
 | ---------------- | ------------ | --------- | ------------ |
 | 内存             | 4G           | 2G        | 2G           |
 | CPU              | 2核          | 2核       | 2核          |
