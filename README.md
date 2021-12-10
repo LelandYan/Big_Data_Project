@@ -79,16 +79,16 @@
 | hadoop103           |     :clap:     |
 | hadoop104           |     :clap:     |
 
-| 环境搭建相关文档                | 详细文档跳转链接 |
-| :------------------------------ | :--------------: |
-| 模板虚拟机（hadoop100）环境搭建 |  [:thumbsup:]()  |
-| Hadoop分布式集群搭建            |  [:thumbsup:]()  |
-| Zookeeper分布式集群搭建         |  [:thumbsup:]()  |
-| Hbase分布式集群搭建             |  [:thumbsup:]()  |
-| Flume环境搭建                   |  [:thumbsup:]()  |
-| Kafka环境搭建                   |  [:thumbsup:]()  |
-| Mysql环境搭建                   |  [:thumbsup:]()  |
-| Redies环境搭建                  |  [:thumbsup:]()  |
+| 环境搭建相关文档                |                       详细文档跳转链接                       |
+| :------------------------------ | :----------------------------------------------------------: |
+| 模板虚拟机（hadoop100）环境搭建 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%A8%A1%E6%9D%BF%E8%99%9A%E6%8B%9F%E6%9C%BA%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md) |
+| Hadoop分布式集群搭建            | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/Hadoop%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA.md) |
+| Zookeeper分布式集群搭建         |                        [:thumbsup:]()                        |
+| Hbase分布式集群搭建             |                        [:thumbsup:]()                        |
+| Flume环境搭建                   |                        [:thumbsup:]()                        |
+| Kafka环境搭建                   |                        [:thumbsup:]()                        |
+| Mysql环境搭建                   |                        [:thumbsup:]()                        |
+| Redies环境搭建                  |                        [:thumbsup:]()                        |
 
 ## 4.项目实现
 
