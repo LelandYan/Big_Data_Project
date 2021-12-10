@@ -4,9 +4,9 @@
 
 最后实现查询和结果页面为：
 
-<div align=center><img src="imgs\2.png" alt="Image text" />
+<div align=center><img src="imgs\2.png" alt="Image text" /></div>
 
-<div align=center><img src="imgs\3.png" alt="Image text" />
+<div align=center><img src="imgs\3.png" alt="Image text" /></div>
 
 ## 1.项目背景
 
@@ -18,7 +18,7 @@
 
 项目架构图如下图：
 
-<div align=center><img src="imgs\1.png" alt="Image text" />
+<div align=center><img src="imgs\1.png" alt="Image text" /></div>
 
 ## 3.项目运行环境与搭建
 
@@ -59,6 +59,22 @@
 | 安装数据库、缓存 | Mysql-8.0.27 |           | Redies-3.0.0 |
 
 ### 3.2 项目运行环境搭建
+
+#### 模板虚拟机环境搭建
+
+#### Hadoop分布式集群搭建
+
+#### Zookeeper分布式集群搭建
+
+#### Hbase分布式集群搭建
+
+#### Flume环境搭建
+
+#### Kafka环境搭建
+
+#### Mysql环境搭建
+
+#### Redies环境搭建
 
 ## 4.项目实现
 
