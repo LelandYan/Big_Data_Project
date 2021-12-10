@@ -1,6 +1,8 @@
 # 基于Hadoop3的电信客服大数据项目
 
-该项目使用的技术与框架为：Hadoop、Flume、Kafka、Hbase、Zookeeper、Maven、Spring、SpringMVC、Mybatis、Mysql、Redies、echart，最后实现查询和结果页面为：
+项目应用技术：Hadoop、Flume、Kafka、Hbase、Zookeeper、Maven、Spring、SpringMVC、Mybatis、Mysql、Redies、Echart。
+
+最后实现查询和结果页面为：
 
 ![](imgs\2.png)
 
@@ -20,6 +22,8 @@
 
 ## 3.项目运行环境与搭建
 
+### 3.1 项目运行环境
+
 系统环境：
 
 | 系统    | 版本                |
@@ -37,13 +41,13 @@
 
 集群环境：
 
-| 框架      | 版本        |
-| --------- | ----------- |
-| hadoop    | 3.1.3  完成 |
-| zookeeper | 3.5.7  完成 |
-| hbase     | 2.0.5 完成  |
-| flume     | 1.9.0完成   |
-| kafka     | 2.4.1完成   |
+| 框架      | 版本  |
+| --------- | ----- |
+| Hadoop    | 3.1.3 |
+| Zookeeper | 3.5.7 |
+| Hbase     | 2.0.5 |
+| Flume     | 1.9.0 |
+| Kafka     | 2.4.1 |
 
 虚拟机环境：
 
@@ -52,7 +56,9 @@
 | 内存             | 4G           | 2G        | 2G           |
 | CPU              | 2核          | 2核       | 2核          |
 | 硬盘             | 50G          | 50G       | 50G          |
-| 安装数据库、缓存 | mysql-8.0.27 |           | redies-3.0.0 |
+| 安装数据库、缓存 | Mysql-8.0.27 |           | Redies-3.0.0 |
+
+### 3.2 项目运行环境搭建
 
 ## 4.项目实现
 
