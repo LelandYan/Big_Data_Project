@@ -171,14 +171,42 @@
    # flume 采集数据，并放入kafka中
    [lelandyan@hadoop102 flume]$ bin/flume-ng agent -c conf/ -n a1 -f /opt/module/data/flume-2-kafka.conf
    
-   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-consumer，并运行Bootstrap文件，将kafka数据存储到hbase中
+   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-consumer，并运行Bootstrap文件，将kafka数据存储到hbase中 或者可以打包/project-ct/ct-consumer然后在虚拟机hadoop102执行
+   java -jar ct-consumer.jar
    
-   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-cache，并运行Bootstrap文件，将数据库中的两张关联表，存入redis缓存
+   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-cache，并运行Bootstrap文件，将数据库中的两张关联表，存入redis缓存,或者也可以通过打包后在虚拟机hadoop102上通过java -jar +jar名称执行
+   java -jar ct-cache.jar
    
-   # 执行分析任务，将hbase里面的数据经过mapreduce任务处理，存入mysql数据中，以便web项目读取
+   # 执行分析任务，将hbase里面的数据经过mapreduce任务处理，存入mysql数据中，以便web项目读取，
    [lelandyan@hadoop102 ~]$ /opt/module/hadoop-3.1.3/bin/yarn jar ct_analysis_jar/ct-analysis.jar
    
    # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-web2，配置tomcat，运行index.jsp，输入上面图片的地址，即可得到结果
+   ```
+   
+4. 关闭所有服务执行脚本
+
+   ```shell
+   # 关闭mysql服务
+   [lelandyan@hadoop102 ~]$ systemctl stop mysqld
+   
+   # 关闭redis服务
+   [lelandyan@hadoop104 ~]$ cd /usr/local/redis/
+   [lelandyan@hadoop104 ~]$ ./bin/redis-cli shutdown
+   
+   # 关闭hbase集群
+   [lelandyan@hadoop102 ~]$ stop-hbase.sh
+   
+   # 关闭kafka
+   [lelandyan@hadoop102 ~]$ kafka.sh stop
+   
+   # 关闭zookeeper集群
+   [lelandyan@hadoop102 ~]$ zk.sh stop
+   
+   # 关闭hadoop集群
+   [lelandyan@hadoop102 ~]$ myhadoop stop
+   
+   # 查看hadoop102,hadoop103,hadoop104上所有的java进程
+   [lelandyan@hadoop102 ~]$ jpsall
    ```
 
 ## 6.项目设计文档
@@ -189,6 +217,4 @@
 | 数据采集 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.md) |
 | 数据分析 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.md) |
 | 数据展示 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md) |
-
-## 
 
