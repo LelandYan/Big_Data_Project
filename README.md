@@ -91,15 +91,15 @@
 
 ## 4.项目实现
 
-| 项目模块名称 | 项目对应模块名称                  |
-| :----------- | --------------------------------- |
-| 数据模拟     | /project/ct-producer              |
-| 数据采集消费 | /project/ct-consumer              |
-| 数据分析     | /project/ct-analysis              |
-| 数据展示     | /project/ct-web2                  |
-| 通用工具     | /project/ct-common                |
-| 数据缓存     | /project/ct-cache                 |
-| 协处理       | /project/ct-consumer-corprocessor |
+| 项目模块名称 | 项目对应模块名称                     |
+| :----------- | ------------------------------------ |
+| 数据模拟     | /project-ct/ct-producer              |
+| 数据采集消费 | /project-ct/ct-consumer              |
+| 数据分析     | /project-ct/ct-analysis              |
+| 数据展示     | /project-ct/ct-web2                  |
+| 通用工具     | /project-ct/ct-common                |
+| 数据缓存     | /project-ct/ct-cache                 |
+| 协处理       | /project-ct/ct-consumer-corprocessor |
 
 ## 5.项目设计文档
 
