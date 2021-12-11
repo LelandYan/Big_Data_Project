@@ -74,8 +74,8 @@
 
 | 项目运行虚拟机环境              |                        百度云下载地址                        |
 | :------------------------------ | :----------------------------------------------------------: |
-| hadoop100（模板机）             | [:clap:](https://pan.baidu.com/s/1c8rC9pFfdiJBt_h-wJ1EBA)  提取码:lzym |
-| hadoop102、hadoop103、hadoop104 |                            :clap:                            |
+| hadoop100（模板机）             | [:clap:](https://pan.baidu.com/s/1c8rC9pFfdiJBt_h-wJ1EBA)  提取码: lzym |
+| hadoop102、hadoop103、hadoop104 | [:clap:](https://pan.baidu.com/s/1EYyziLLapPbOnwpvlnws-w) 提取码: uw2a |
 
 | 环境搭建相关文档                     |                       详细文档跳转链接                       |
 | :----------------------------------- | :----------------------------------------------------------: |
@@ -91,12 +91,24 @@
 
 ## 4.项目实现
 
-| 项目实现相关文档 |                       详细解释跳转链接                       |
-| :--------------- | :----------------------------------------------------------: |
-| 数据模拟         | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F.md) |
-| 数据采集         | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.md) |
-| 数据分析         | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.md) |
-| 数据展示         | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md) |
+| 项目模块名称 | 项目对应模块名称                  |
+| :----------- | --------------------------------- |
+| 数据模拟     | /project/ct-producer              |
+| 数据采集消费 | /project/ct-consumer              |
+| 数据分析     | /project/ct-analysis              |
+| 数据展示     | /project/ct-web2                  |
+| 通用工具     | /project/ct-common                |
+| 数据缓存     | /project/ct-cache                 |
+| 协处理       | /project/ct-consumer-corprocessor |
 
-## 5.项目总结
+## 5.项目设计文档
+
+| 项目实现 |                       详细解释跳转链接                       |
+| :------- | :----------------------------------------------------------: |
+| 数据模拟 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F.md) |
+| 数据采集 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.md) |
+| 数据分析 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.md) |
+| 数据展示 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md) |
+
+## 
 

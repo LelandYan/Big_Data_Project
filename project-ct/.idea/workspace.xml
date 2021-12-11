@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ct-web2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="225bedc5-be1c-4f09-9504-090ec83b16a3" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="21wemRR7dPPS7GrQTCOfmojJBD6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ct-web2/src/main/webapp/jquery" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24276169" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\project-ct\ct-web2\src\main\webapp\jquery" />
+      <recent name="D:\IdeaProjects\project-ct\ct-web2\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\IdeaProjects\project-ct\ct-web2\src\main\webapp" />
+      <recent name="D:\IdeaProjects\project-ct\ct-web2\src\main\resources" />
+      <recent name="D:\IdeaProjects\project-ct\ct-web\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lelandyan.ct.analysis.io" />
+      <recent name="com.lelandyan.ct.analysis.tool" />
+      <recent name="com.lelandyan.ct.analysis.reducer" />
+      <recent name="com.lelandyan.ct.analysis.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.jsp">
+    <configuration name="AnalysisData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lelandyan.ct.analysis.AnalysisData" />
+      <module name="ct-analysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lelandyan.ct.analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ct-server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="ct-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8f07b6cd-2379-4927-975c-4b02b8090a7b" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="11368" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ct-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp " type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="ct-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="27441de4-0645-490a-b13f-9e6b58193ef9" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6578" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ct-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.56" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.jsp" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="ct-web2:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9c110785-39b4-4196-b98f-f1b3a8989730" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6750" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ct-web2:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AnalysisData" />
+      <item itemvalue="Tomcat Server.ct-server" />
+      <item itemvalue="Tomcat Server.index.jsp " />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.index.jsp " />
+        <item itemvalue="Tomcat Server.ct-server" />
+        <item itemvalue="Application.AnalysisData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="225bedc5-be1c-4f09-9504-090ec83b16a3" name="Changes" comment="" />
+      <created>1638856738697</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638856738697</updated>
+      <workItem from="1638856740553" duration="17000" />
+      <workItem from="1638856763580" duration="1012000" />
+      <workItem from="1638858033465" duration="15480000" />
+      <workItem from="1638927876554" duration="5264000" />
+      <workItem from="1638937465761" duration="4820000" />
+      <workItem from="1638946307181" duration="28000" />
+      <workItem from="1638948459057" duration="15836000" />
+      <workItem from="1638971807979" duration="297000" />
+      <workItem from="1639010347785" duration="18605000" />
+      <workItem from="1639038411758" duration="13736000" />
+      <workItem from="1639104151778" duration="9549000" />
+      <workItem from="1639120084081" duration="622000" />
+      <workItem from="1639201422613" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-distcp" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-server" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-all" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-hdfs" />
+    <option featureType="dependencySupport" implementationName="java:org.javassist:javassist" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet.jsp:javax.servlet.jsp-api" />
+    <option featureType="dependencySupport" implementationName="java:org.hamcrest:hamcrest-core" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-servlet" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-common" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.web:javax.servlet.jsp" />
+    <option featureType="dependencySupport" implementationName="java:org.example:ct-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-common" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-mapper-asl" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.gson:gson" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-unix-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-common" />
+    <option featureType="dependencySupport" implementationName="java:commons-io:commons-io" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-procedure" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.htrace:htrace-core" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-xml" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-jobclient" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.zookeeper:zookeeper-jute" />
+    <option featureType="dependencySupport" implementationName="java:org.jruby.joni:joni" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang:scala-library" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.bundles.repackaged:jersey-guava" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-client" />
+    <option featureType="dependencySupport" implementationName="java:commons-lang:commons-lang" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.avro:avro" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-xc" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase.thirdparty:hbase-shaded-netty" />
+    <option featureType="dependencySupport" implementationName="java:com.jcraft:jsch" />
+    <option featureType="dependencySupport" implementationName="java:junit:junit" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-client" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:com.lmax:disruptor" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.xml.bind:jaxb-impl" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2.external:aopalliance-repackaged" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2.external:javax.inject" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-protocol-shaded" />
+    <option featureType="dependencySupport" implementationName="java:commons-net:commons-net" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-webapp" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-jaxrs" />
+    <option featureType="dependencySupport" implementationName="java:com.typesafe.scala-logging:scala-logging_2.13" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.media:jersey-media-jaxb" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-common" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-http" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpcore" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-recipes" />
+    <option featureType="dependencySupport" implementationName="java:javax.ws.rs:javax.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-hadoop2-compat" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-lang3" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-client" />
+    <option featureType="dependencySupport" implementationName="java:xmlenc:xmlenc" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-client" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-databind" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey.contribs:jersey-guice" />
+    <option featureType="dependencySupport" implementationName="java:net.sf.jopt-simple:jopt-simple" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jettison:jettison" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.directory.api:api-asn1-api" />
+    <option featureType="dependencySupport" implementationName="java:com.thoughtworks.paranamer:paranamer" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-metrics-api" />
+    <option featureType="dependencySupport" implementationName="java:commons-collections:commons-collections" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-api" />
+    <option featureType="dependencySupport" implementationName="java:org.tukaani:xz" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-replication" />
+    <option featureType="dependencySupport" implementationName="java:com.google.guava:guava" />
+    <option featureType="dependencySupport" implementationName="java:commons-configuration:commons-configuration" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.zookeeper:zookeeper" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-math3" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-auth" />
+    <option featureType="dependencySupport" implementationName="java:asm:asm" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase.thirdparty:hbase-shaded-miscellaneous" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.datatype:jackson-datatype-jdk8" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-metrics" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang.modules:scala-java8-compat_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.httpcomponents:httpclient" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-crypto" />
+    <option featureType="dependencySupport" implementationName="java:org.mortbay.jetty:jetty-sslengine" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.dataformat:jackson-dataformat-csv" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.directory.api:api-util" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase.thirdparty:hbase-shaded-protobuf" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-security" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-http" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-transport-native-epoll" />
+    <option featureType="dependencySupport" implementationName="java:org.lz4:lz4-java" />
+    <option featureType="dependencySupport" implementationName="java:javax.inject:javax.inject" />
+    <option featureType="dependencySupport" implementationName="java:commons-codec:commons-codec" />
+    <option featureType="dependencySupport" implementationName="java:commons-cli:commons-cli" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-shuffle" />
+    <option featureType="dependencySupport" implementationName="java:javax.activation:activation" />
+    <option featureType="dependencySupport" implementationName="java:org.mortbay.jetty:jetty-util" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-client" />
+    <option featureType="dependencySupport" implementationName="java:commons-daemon:commons-daemon" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-resolver" />
+    <option featureType="dependencySupport" implementationName="java:javax.validation:validation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.directory.server:apacheds-i18n" />
+    <option featureType="dependencySupport" implementationName="java:commons-httpclient:commons-httpclient" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang.modules:scala-collection-compat_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-server-common" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:servlet-api" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.htrace:htrace-core4" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.commons:commons-compress" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:osgi-resource-locator" />
+    <option featureType="dependencySupport" implementationName="java:commons-beanutils:commons-beanutils-core" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-json" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-scala_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.codehaus.jackson:jackson-core-asl" />
+    <option featureType="dependencySupport" implementationName="java:org.fusesource.leveldbjni:leveldbjni-all" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-client" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-buffer" />
+    <option featureType="dependencySupport" implementationName="java:com.github.luben:zstd-jni" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.core:jersey-server" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-common" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.yetus:audience-annotations" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject.extensions:guice-servlet" />
+    <option featureType="dependencySupport" implementationName="java:commons-logging:commons-logging" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-server" />
+    <option featureType="dependencySupport" implementationName="java:org.xerial.snappy:snappy-java" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-codec" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.bind:jaxb-api" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka_2.13" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-server" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-api" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.core:jackson-core" />
+    <option featureType="dependencySupport" implementationName="java:com.github.stephenc.findbugs:findbugs-annotations" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.kafka:kafka-clients" />
+    <option featureType="dependencySupport" implementationName="java:org.mortbay.jetty:jetty" />
+    <option featureType="dependencySupport" implementationName="java:org.jamon:jamon-runtime" />
+    <option featureType="dependencySupport" implementationName="java:aopalliance:aopalliance" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.directory.server:apacheds-kerberos-codec" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-locator" />
+    <option featureType="dependencySupport" implementationName="java:io.dropwizard.metrics:metrics-core" />
+    <option featureType="dependencySupport" implementationName="java:com.google.code.findbugs:jsr305" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish:javax.el" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-protocol" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-io" />
+    <option featureType="dependencySupport" implementationName="java:org.jruby.jcodings:jcodings" />
+    <option featureType="dependencySupport" implementationName="java:commons-beanutils:commons-beanutils" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-core" />
+    <option featureType="dependencySupport" implementationName="java:com.fasterxml.jackson.module:jackson-module-paranamer" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-zookeeper" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase-hadoop-compat" />
+    <option featureType="dependencySupport" implementationName="java:com.sun.jersey:jersey-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-mapreduce-client-app" />
+    <option featureType="dependencySupport" implementationName="java:io.netty:netty-handler" />
+    <option featureType="dependencySupport" implementationName="java:commons-digester:commons-digester" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.hk2:hk2-utils" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hbase:hbase" />
+    <option featureType="dependencySupport" implementationName="java:org.glassfish.jersey.containers:jersey-container-servlet-core" />
+    <option featureType="dependencySupport" implementationName="java:org.slf4j:slf4j-log4j12" />
+    <option featureType="dependencySupport" implementationName="java:javax.annotation:javax.annotation-api" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-util-ajax" />
+    <option featureType="dependencySupport" implementationName="java:org.eclipse.jetty:jetty-util" />
+    <option featureType="dependencySupport" implementationName="java:javax.xml.stream:stax-api" />
+    <option featureType="dependencySupport" implementationName="java:org.scala-lang:scala-reflect" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.curator:curator-framework" />
+    <option featureType="dependencySupport" implementationName="java:javax.servlet:javax.servlet-api" />
+    <option featureType="dependencySupport" implementationName="java:log4j:log4j" />
+    <option featureType="dependencySupport" implementationName="java:com.yammer.metrics:metrics-core" />
+    <option featureType="dependencySupport" implementationName="java:org.apache.hadoop:hadoop-yarn-common" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ct-web/src/main/java/com/lelandyan/ct/web/controller/CalllogController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ct-web/src/main/java/com/lelandyan/ct/web/service/impl/CalllogServiceImpl.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ct-web/src/main/java/com/lelandyan/ct/web/service/impl/CalllogServiceImpl.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
