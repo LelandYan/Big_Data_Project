@@ -46,7 +46,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 [lelandyan@hadoop102 ~]$ java -version
 
 
-# 7. 安装hadoop3 用XShell文件传输工具将hadoop-3.1.3.tar.gz导入到opt目录下面的software文件夹下面
+# 7. 安装hadoop3 用XShell文件传输工具将hadoop-3.1.3.tar.gz导入到opt目录下面的software文件夹下面，hadoop-3.1.3.tar.gz可以自行下载
 [lelandyan@hadoop102 software]$ tar -zxvf hadoop-3.1.3.tar.gz -C /opt/module/
 
 # 配置hadoop环境变量，，加入下面内容，并生效，测试是否安装成功
