@@ -101,7 +101,87 @@
 | 数据缓存     | /project-ct/ct-cache                 |
 | 协处理       | /project-ct/ct-consumer-corprocessor |
 
-## 5.项目设计文档
+## 5.项目运行
+
+**下载hadoop102，hadoop103，hadoop104虚拟机环境和ct-project项目后**：
+
+1. 首先导入虚拟机并启动集群和，在本地主机idea（win）上导入ct-project项目配置环境
+
+   ```shell
+   # 开启hadoop集群
+   [lelandyan@hadoop102 ~]$ myhadoop start
+   
+   # 开启zookeeper集群
+   [lelandyan@hadoop102 ~]$ zk.sh start
+   
+   # 开启kafka
+   [lelandyan@hadoop102 ~]$ kafka.sh start
+   
+   # 开启hbase集群
+   [lelandyan@hadoop102 ~]$ start-hbase.sh
+   
+   # 开启mysql服务
+   [lelandyan@hadoop102 ~]$ systemctl start mysqld
+   
+   # 开启redis服务
+   [lelandyan@hadoop104 ~]$ cd /usr/local/redis/
+   [lelandyan@hadoop104 ~]$ ./bin/redis-server ./redis.conf
+   
+   # 查看hadoop102,hadoop103,hadoop104上所有的java进程
+   [lelandyan@hadoop102 ~]$ jpsall
+   
+   # 第一列为进程号,可以不相同,但是第二列必须与下面相同,第二列代表的是服务进程名称,如果没有启动成功,需要重启服务或者检测前面是否成功配置
+   =============== hadoop102 ===============
+   4498 HMaster
+   3763 JobHistoryServer
+   3860 QuorumPeerMain
+   4676 HRegionServer
+   3255 DataNode
+   3117 NameNode
+   3581 NodeManager
+   4253 Kafka
+   4909 Jps
+   =============== hadoop103 ===============
+   2768 DataNode
+   3872 Kafka
+   3475 QuorumPeerMain
+   4195 Jps
+   3092 NodeManager
+   2957 ResourceManager
+   3997 HRegionServer
+   =============== hadoop104 ===============
+   3650 HRegionServer
+   2981 NodeManager
+   3526 Kafka
+   2888 SecondaryNameNode
+   3848 Jps
+   3134 QuorumPeerMain
+   2767 DataNode
+   ```
+
+2. 在打开本地主机idea（win）navicat数据库远程连接，并建立ct数据库，导入ct.sql文件，建立数据库表和数据
+
+3. 环境和项目配置完成后，在执行下列操作执行操作
+
+   ```shell
+   # 开始生产数据
+   [lelandyan@hadoop102 ~]$ cd /opt/module/data
+   [lelandyan@hadoop102 data]$ java -jar ct-producer.jar /opt/module/data/contact.log /opt/module/data/call.log
+   
+   # flume 采集数据，并放入kafka中
+   [lelandyan@hadoop102 flume]$ bin/flume-ng agent -c conf/ -n a1 -f /opt/module/data/flume-2-kafka.conf
+   
+   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-consumer，并运行Bootstrap文件，将kafka数据存储到hbase中
+   
+   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-cache，并运行Bootstrap文件，将数据库中的两张关联表，存入redis缓存
+   
+   # 执行分析任务，将hbase里面的数据经过mapreduce任务处理，存入mysql数据中，以便web项目读取
+   [lelandyan@hadoop102 ~]$ /opt/module/hadoop-3.1.3/bin/yarn jar ct_analysis_jar/ct-analysis.jar
+   
+   # 打开本地主机idea（win）项目中的数据采集消费/project-ct/ct-web2，配置tomcat，运行index.jsp，输入上面图片的地址，即可得到结果
+   ```
+
+## 6.项目设计文档
 
 | 项目实现 |                       详细解释跳转链接                       |
 | :------- | :----------------------------------------------------------: |

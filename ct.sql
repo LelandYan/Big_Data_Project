@@ -1,0 +1,511 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : hadoop102+Yanxiangpei.123
+ Source Server Type    : MySQL
+ Source Server Version : 80027
+ Source Host           : hadoop102:3306
+ Source Schema         : ct
+
+ Target Server Type    : MySQL
+ Target Server Version : 80027
+ File Encoding         : 65001
+
+ Date: 11/12/2021 19:20:44
+*/
+
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+-- Table structure for ct_call
+-- ----------------------------
+DROP TABLE IF EXISTS `ct_call`;
+CREATE TABLE `ct_call`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `tel_id` int(0) NOT NULL,
+  `date_id` int(0) NULL DEFAULT NULL,
+  `call_sum` int(0) NULL DEFAULT NULL,
+  `call_duration_sum` int(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 120 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of ct_call
+-- ----------------------------
+INSERT INTO `ct_call` VALUES (81, 18, 1, 2, 3725);
+INSERT INTO `ct_call` VALUES (82, 18, 253, 1, 1478);
+INSERT INTO `ct_call` VALUES (83, 18, 275, 1, 1478);
+INSERT INTO `ct_call` VALUES (84, 18, 284, 1, 2247);
+INSERT INTO `ct_call` VALUES (85, 18, 288, 1, 2247);
+INSERT INTO `ct_call` VALUES (86, 21, 1, 1, 2057);
+INSERT INTO `ct_call` VALUES (87, 21, 253, 1, 2057);
+INSERT INTO `ct_call` VALUES (88, 21, 264, 1, 2057);
+INSERT INTO `ct_call` VALUES (89, 5, 1, 1, 2823);
+INSERT INTO `ct_call` VALUES (90, 5, 2, 1, 2823);
+INSERT INTO `ct_call` VALUES (91, 5, 20, 1, 2823);
+INSERT INTO `ct_call` VALUES (92, 6, 1, 1, 2823);
+INSERT INTO `ct_call` VALUES (93, 6, 2, 1, 2823);
+INSERT INTO `ct_call` VALUES (94, 6, 20, 1, 2823);
+INSERT INTO `ct_call` VALUES (95, 12, 1, 1, 334);
+INSERT INTO `ct_call` VALUES (96, 12, 253, 1, 334);
+INSERT INTO `ct_call` VALUES (97, 12, 272, 1, 334);
+INSERT INTO `ct_call` VALUES (98, 7, 1, 1, 1478);
+INSERT INTO `ct_call` VALUES (99, 7, 253, 1, 1478);
+INSERT INTO `ct_call` VALUES (100, 7, 275, 1, 1478);
+INSERT INTO `ct_call` VALUES (101, 13, 1, 1, 2048);
+INSERT INTO `ct_call` VALUES (102, 13, 347, 1, 2048);
+INSERT INTO `ct_call` VALUES (103, 13, 375, 1, 2048);
+INSERT INTO `ct_call` VALUES (104, 15, 1, 1, 334);
+INSERT INTO `ct_call` VALUES (105, 15, 253, 1, 334);
+INSERT INTO `ct_call` VALUES (106, 15, 272, 1, 334);
+INSERT INTO `ct_call` VALUES (107, 4, 1, 1, 2057);
+INSERT INTO `ct_call` VALUES (108, 4, 253, 1, 2057);
+INSERT INTO `ct_call` VALUES (109, 4, 264, 1, 2057);
+INSERT INTO `ct_call` VALUES (110, 1, 1, 1, 2048);
+INSERT INTO `ct_call` VALUES (111, 1, 347, 1, 2048);
+INSERT INTO `ct_call` VALUES (112, 1, 375, 1, 2048);
+INSERT INTO `ct_call` VALUES (113, 3, 1, 1, 1164);
+INSERT INTO `ct_call` VALUES (114, 3, 63, 1, 1164);
+INSERT INTO `ct_call` VALUES (115, 3, 69, 1, 1164);
+INSERT INTO `ct_call` VALUES (116, 24, 1, 2, 3411);
+INSERT INTO `ct_call` VALUES (117, 24, 63, 1, 1164);
+INSERT INTO `ct_call` VALUES (118, 24, 69, 1, 1164);
+INSERT INTO `ct_call` VALUES (119, 24, 284, 1, 2247);
+INSERT INTO `ct_call` VALUES (120, 24, 288, 1, 2247);
+
+-- ----------------------------
+-- Table structure for ct_date
+-- ----------------------------
+DROP TABLE IF EXISTS `ct_date`;
+CREATE TABLE `ct_date`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `year` int(0) NULL DEFAULT NULL,
+  `month` int(0) NULL DEFAULT NULL,
+  `day` int(0) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 378 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of ct_date
+-- ----------------------------
+INSERT INTO `ct_date` VALUES (1, 2021, NULL, NULL);
+INSERT INTO `ct_date` VALUES (2, 2021, 1, NULL);
+INSERT INTO `ct_date` VALUES (3, 2021, 1, 1);
+INSERT INTO `ct_date` VALUES (4, 2021, 1, 2);
+INSERT INTO `ct_date` VALUES (5, 2021, 1, 3);
+INSERT INTO `ct_date` VALUES (6, 2021, 1, 4);
+INSERT INTO `ct_date` VALUES (7, 2021, 1, 5);
+INSERT INTO `ct_date` VALUES (8, 2021, 1, 6);
+INSERT INTO `ct_date` VALUES (9, 2021, 1, 7);
+INSERT INTO `ct_date` VALUES (10, 2021, 1, 8);
+INSERT INTO `ct_date` VALUES (11, 2021, 1, 9);
+INSERT INTO `ct_date` VALUES (12, 2021, 1, 10);
+INSERT INTO `ct_date` VALUES (13, 2021, 1, 11);
+INSERT INTO `ct_date` VALUES (14, 2021, 1, 12);
+INSERT INTO `ct_date` VALUES (15, 2021, 1, 13);
+INSERT INTO `ct_date` VALUES (16, 2021, 1, 14);
+INSERT INTO `ct_date` VALUES (17, 2021, 1, 15);
+INSERT INTO `ct_date` VALUES (18, 2021, 1, 16);
+INSERT INTO `ct_date` VALUES (19, 2021, 1, 17);
+INSERT INTO `ct_date` VALUES (20, 2021, 1, 18);
+INSERT INTO `ct_date` VALUES (21, 2021, 1, 19);
+INSERT INTO `ct_date` VALUES (22, 2021, 1, 20);
+INSERT INTO `ct_date` VALUES (23, 2021, 1, 21);
+INSERT INTO `ct_date` VALUES (24, 2021, 1, 22);
+INSERT INTO `ct_date` VALUES (25, 2021, 1, 23);
+INSERT INTO `ct_date` VALUES (26, 2021, 1, 24);
+INSERT INTO `ct_date` VALUES (27, 2021, 1, 25);
+INSERT INTO `ct_date` VALUES (28, 2021, 1, 26);
+INSERT INTO `ct_date` VALUES (29, 2021, 1, 27);
+INSERT INTO `ct_date` VALUES (30, 2021, 1, 28);
+INSERT INTO `ct_date` VALUES (31, 2021, 1, 29);
+INSERT INTO `ct_date` VALUES (32, 2021, 1, 30);
+INSERT INTO `ct_date` VALUES (33, 2021, 1, 31);
+INSERT INTO `ct_date` VALUES (34, 2021, 2, NULL);
+INSERT INTO `ct_date` VALUES (35, 2021, 2, 1);
+INSERT INTO `ct_date` VALUES (36, 2021, 2, 2);
+INSERT INTO `ct_date` VALUES (37, 2021, 2, 3);
+INSERT INTO `ct_date` VALUES (38, 2021, 2, 4);
+INSERT INTO `ct_date` VALUES (39, 2021, 2, 5);
+INSERT INTO `ct_date` VALUES (40, 2021, 2, 6);
+INSERT INTO `ct_date` VALUES (41, 2021, 2, 7);
+INSERT INTO `ct_date` VALUES (42, 2021, 2, 8);
+INSERT INTO `ct_date` VALUES (43, 2021, 2, 9);
+INSERT INTO `ct_date` VALUES (44, 2021, 2, 10);
+INSERT INTO `ct_date` VALUES (45, 2021, 2, 11);
+INSERT INTO `ct_date` VALUES (46, 2021, 2, 12);
+INSERT INTO `ct_date` VALUES (47, 2021, 2, 13);
+INSERT INTO `ct_date` VALUES (48, 2021, 2, 14);
+INSERT INTO `ct_date` VALUES (49, 2021, 2, 15);
+INSERT INTO `ct_date` VALUES (50, 2021, 2, 16);
+INSERT INTO `ct_date` VALUES (51, 2021, 2, 17);
+INSERT INTO `ct_date` VALUES (52, 2021, 2, 18);
+INSERT INTO `ct_date` VALUES (53, 2021, 2, 19);
+INSERT INTO `ct_date` VALUES (54, 2021, 2, 20);
+INSERT INTO `ct_date` VALUES (55, 2021, 2, 21);
+INSERT INTO `ct_date` VALUES (56, 2021, 2, 22);
+INSERT INTO `ct_date` VALUES (57, 2021, 2, 23);
+INSERT INTO `ct_date` VALUES (58, 2021, 2, 24);
+INSERT INTO `ct_date` VALUES (59, 2021, 2, 25);
+INSERT INTO `ct_date` VALUES (60, 2021, 2, 26);
+INSERT INTO `ct_date` VALUES (61, 2021, 2, 27);
+INSERT INTO `ct_date` VALUES (62, 2021, 2, 28);
+INSERT INTO `ct_date` VALUES (63, 2021, 3, NULL);
+INSERT INTO `ct_date` VALUES (64, 2021, 3, 1);
+INSERT INTO `ct_date` VALUES (65, 2021, 3, 2);
+INSERT INTO `ct_date` VALUES (66, 2021, 3, 3);
+INSERT INTO `ct_date` VALUES (67, 2021, 3, 4);
+INSERT INTO `ct_date` VALUES (68, 2021, 3, 5);
+INSERT INTO `ct_date` VALUES (69, 2021, 3, 6);
+INSERT INTO `ct_date` VALUES (70, 2021, 3, 7);
+INSERT INTO `ct_date` VALUES (71, 2021, 3, 8);
+INSERT INTO `ct_date` VALUES (72, 2021, 3, 9);
+INSERT INTO `ct_date` VALUES (73, 2021, 3, 10);
+INSERT INTO `ct_date` VALUES (74, 2021, 3, 11);
+INSERT INTO `ct_date` VALUES (75, 2021, 3, 12);
+INSERT INTO `ct_date` VALUES (76, 2021, 3, 13);
+INSERT INTO `ct_date` VALUES (77, 2021, 3, 14);
+INSERT INTO `ct_date` VALUES (78, 2021, 3, 15);
+INSERT INTO `ct_date` VALUES (79, 2021, 3, 16);
+INSERT INTO `ct_date` VALUES (80, 2021, 3, 17);
+INSERT INTO `ct_date` VALUES (81, 2021, 3, 18);
+INSERT INTO `ct_date` VALUES (82, 2021, 3, 19);
+INSERT INTO `ct_date` VALUES (83, 2021, 3, 20);
+INSERT INTO `ct_date` VALUES (84, 2021, 3, 21);
+INSERT INTO `ct_date` VALUES (85, 2021, 3, 22);
+INSERT INTO `ct_date` VALUES (86, 2021, 3, 23);
+INSERT INTO `ct_date` VALUES (87, 2021, 3, 24);
+INSERT INTO `ct_date` VALUES (88, 2021, 3, 25);
+INSERT INTO `ct_date` VALUES (89, 2021, 3, 26);
+INSERT INTO `ct_date` VALUES (90, 2021, 3, 27);
+INSERT INTO `ct_date` VALUES (91, 2021, 3, 28);
+INSERT INTO `ct_date` VALUES (92, 2021, 3, 29);
+INSERT INTO `ct_date` VALUES (93, 2021, 3, 30);
+INSERT INTO `ct_date` VALUES (94, 2021, 3, 31);
+INSERT INTO `ct_date` VALUES (95, 2021, 4, NULL);
+INSERT INTO `ct_date` VALUES (96, 2021, 4, 1);
+INSERT INTO `ct_date` VALUES (97, 2021, 4, 2);
+INSERT INTO `ct_date` VALUES (98, 2021, 4, 3);
+INSERT INTO `ct_date` VALUES (99, 2021, 4, 4);
+INSERT INTO `ct_date` VALUES (100, 2021, 4, 5);
+INSERT INTO `ct_date` VALUES (101, 2021, 4, 6);
+INSERT INTO `ct_date` VALUES (102, 2021, 4, 7);
+INSERT INTO `ct_date` VALUES (103, 2021, 4, 8);
+INSERT INTO `ct_date` VALUES (104, 2021, 4, 9);
+INSERT INTO `ct_date` VALUES (105, 2021, 4, 10);
+INSERT INTO `ct_date` VALUES (106, 2021, 4, 11);
+INSERT INTO `ct_date` VALUES (107, 2021, 4, 12);
+INSERT INTO `ct_date` VALUES (108, 2021, 4, 13);
+INSERT INTO `ct_date` VALUES (109, 2021, 4, 14);
+INSERT INTO `ct_date` VALUES (110, 2021, 4, 15);
+INSERT INTO `ct_date` VALUES (111, 2021, 4, 16);
+INSERT INTO `ct_date` VALUES (112, 2021, 4, 17);
+INSERT INTO `ct_date` VALUES (113, 2021, 4, 18);
+INSERT INTO `ct_date` VALUES (114, 2021, 4, 19);
+INSERT INTO `ct_date` VALUES (115, 2021, 4, 20);
+INSERT INTO `ct_date` VALUES (116, 2021, 4, 21);
+INSERT INTO `ct_date` VALUES (117, 2021, 4, 22);
+INSERT INTO `ct_date` VALUES (118, 2021, 4, 23);
+INSERT INTO `ct_date` VALUES (119, 2021, 4, 24);
+INSERT INTO `ct_date` VALUES (120, 2021, 4, 25);
+INSERT INTO `ct_date` VALUES (121, 2021, 4, 26);
+INSERT INTO `ct_date` VALUES (122, 2021, 4, 27);
+INSERT INTO `ct_date` VALUES (123, 2021, 4, 28);
+INSERT INTO `ct_date` VALUES (124, 2021, 4, 29);
+INSERT INTO `ct_date` VALUES (125, 2021, 4, 30);
+INSERT INTO `ct_date` VALUES (126, 2021, 5, NULL);
+INSERT INTO `ct_date` VALUES (127, 2021, 5, 1);
+INSERT INTO `ct_date` VALUES (128, 2021, 5, 2);
+INSERT INTO `ct_date` VALUES (129, 2021, 5, 3);
+INSERT INTO `ct_date` VALUES (130, 2021, 5, 4);
+INSERT INTO `ct_date` VALUES (131, 2021, 5, 5);
+INSERT INTO `ct_date` VALUES (132, 2021, 5, 6);
+INSERT INTO `ct_date` VALUES (133, 2021, 5, 7);
+INSERT INTO `ct_date` VALUES (134, 2021, 5, 8);
+INSERT INTO `ct_date` VALUES (135, 2021, 5, 9);
+INSERT INTO `ct_date` VALUES (136, 2021, 5, 10);
+INSERT INTO `ct_date` VALUES (137, 2021, 5, 11);
+INSERT INTO `ct_date` VALUES (138, 2021, 5, 12);
+INSERT INTO `ct_date` VALUES (139, 2021, 5, 13);
+INSERT INTO `ct_date` VALUES (140, 2021, 5, 14);
+INSERT INTO `ct_date` VALUES (141, 2021, 5, 15);
+INSERT INTO `ct_date` VALUES (142, 2021, 5, 16);
+INSERT INTO `ct_date` VALUES (143, 2021, 5, 17);
+INSERT INTO `ct_date` VALUES (144, 2021, 5, 18);
+INSERT INTO `ct_date` VALUES (145, 2021, 5, 19);
+INSERT INTO `ct_date` VALUES (146, 2021, 5, 20);
+INSERT INTO `ct_date` VALUES (147, 2021, 5, 21);
+INSERT INTO `ct_date` VALUES (148, 2021, 5, 22);
+INSERT INTO `ct_date` VALUES (149, 2021, 5, 23);
+INSERT INTO `ct_date` VALUES (150, 2021, 5, 24);
+INSERT INTO `ct_date` VALUES (151, 2021, 5, 25);
+INSERT INTO `ct_date` VALUES (152, 2021, 5, 26);
+INSERT INTO `ct_date` VALUES (153, 2021, 5, 27);
+INSERT INTO `ct_date` VALUES (154, 2021, 5, 28);
+INSERT INTO `ct_date` VALUES (155, 2021, 5, 29);
+INSERT INTO `ct_date` VALUES (156, 2021, 5, 30);
+INSERT INTO `ct_date` VALUES (157, 2021, 5, 31);
+INSERT INTO `ct_date` VALUES (158, 2021, 6, NULL);
+INSERT INTO `ct_date` VALUES (159, 2021, 6, 1);
+INSERT INTO `ct_date` VALUES (160, 2021, 6, 2);
+INSERT INTO `ct_date` VALUES (161, 2021, 6, 3);
+INSERT INTO `ct_date` VALUES (162, 2021, 6, 4);
+INSERT INTO `ct_date` VALUES (163, 2021, 6, 5);
+INSERT INTO `ct_date` VALUES (164, 2021, 6, 6);
+INSERT INTO `ct_date` VALUES (165, 2021, 6, 7);
+INSERT INTO `ct_date` VALUES (166, 2021, 6, 8);
+INSERT INTO `ct_date` VALUES (167, 2021, 6, 9);
+INSERT INTO `ct_date` VALUES (168, 2021, 6, 10);
+INSERT INTO `ct_date` VALUES (169, 2021, 6, 11);
+INSERT INTO `ct_date` VALUES (170, 2021, 6, 12);
+INSERT INTO `ct_date` VALUES (171, 2021, 6, 13);
+INSERT INTO `ct_date` VALUES (172, 2021, 6, 14);
+INSERT INTO `ct_date` VALUES (173, 2021, 6, 15);
+INSERT INTO `ct_date` VALUES (174, 2021, 6, 16);
+INSERT INTO `ct_date` VALUES (175, 2021, 6, 17);
+INSERT INTO `ct_date` VALUES (176, 2021, 6, 18);
+INSERT INTO `ct_date` VALUES (177, 2021, 6, 19);
+INSERT INTO `ct_date` VALUES (178, 2021, 6, 20);
+INSERT INTO `ct_date` VALUES (179, 2021, 6, 21);
+INSERT INTO `ct_date` VALUES (180, 2021, 6, 22);
+INSERT INTO `ct_date` VALUES (181, 2021, 6, 23);
+INSERT INTO `ct_date` VALUES (182, 2021, 6, 24);
+INSERT INTO `ct_date` VALUES (183, 2021, 6, 25);
+INSERT INTO `ct_date` VALUES (184, 2021, 6, 26);
+INSERT INTO `ct_date` VALUES (185, 2021, 6, 27);
+INSERT INTO `ct_date` VALUES (186, 2021, 6, 28);
+INSERT INTO `ct_date` VALUES (187, 2021, 6, 29);
+INSERT INTO `ct_date` VALUES (188, 2021, 6, 30);
+INSERT INTO `ct_date` VALUES (189, 2021, 7, NULL);
+INSERT INTO `ct_date` VALUES (190, 2021, 7, 1);
+INSERT INTO `ct_date` VALUES (191, 2021, 7, 2);
+INSERT INTO `ct_date` VALUES (192, 2021, 7, 3);
+INSERT INTO `ct_date` VALUES (193, 2021, 7, 4);
+INSERT INTO `ct_date` VALUES (194, 2021, 7, 5);
+INSERT INTO `ct_date` VALUES (195, 2021, 7, 6);
+INSERT INTO `ct_date` VALUES (196, 2021, 7, 7);
+INSERT INTO `ct_date` VALUES (197, 2021, 7, 8);
+INSERT INTO `ct_date` VALUES (198, 2021, 7, 9);
+INSERT INTO `ct_date` VALUES (199, 2021, 7, 10);
+INSERT INTO `ct_date` VALUES (200, 2021, 7, 11);
+INSERT INTO `ct_date` VALUES (201, 2021, 7, 12);
+INSERT INTO `ct_date` VALUES (202, 2021, 7, 13);
+INSERT INTO `ct_date` VALUES (203, 2021, 7, 14);
+INSERT INTO `ct_date` VALUES (204, 2021, 7, 15);
+INSERT INTO `ct_date` VALUES (205, 2021, 7, 16);
+INSERT INTO `ct_date` VALUES (206, 2021, 7, 17);
+INSERT INTO `ct_date` VALUES (207, 2021, 7, 18);
+INSERT INTO `ct_date` VALUES (208, 2021, 7, 19);
+INSERT INTO `ct_date` VALUES (209, 2021, 7, 20);
+INSERT INTO `ct_date` VALUES (210, 2021, 7, 21);
+INSERT INTO `ct_date` VALUES (211, 2021, 7, 22);
+INSERT INTO `ct_date` VALUES (212, 2021, 7, 23);
+INSERT INTO `ct_date` VALUES (213, 2021, 7, 24);
+INSERT INTO `ct_date` VALUES (214, 2021, 7, 25);
+INSERT INTO `ct_date` VALUES (215, 2021, 7, 26);
+INSERT INTO `ct_date` VALUES (216, 2021, 7, 27);
+INSERT INTO `ct_date` VALUES (217, 2021, 7, 28);
+INSERT INTO `ct_date` VALUES (218, 2021, 7, 29);
+INSERT INTO `ct_date` VALUES (219, 2021, 7, 30);
+INSERT INTO `ct_date` VALUES (220, 2021, 7, 31);
+INSERT INTO `ct_date` VALUES (221, 2021, 8, NULL);
+INSERT INTO `ct_date` VALUES (222, 2021, 8, 1);
+INSERT INTO `ct_date` VALUES (223, 2021, 8, 2);
+INSERT INTO `ct_date` VALUES (224, 2021, 8, 3);
+INSERT INTO `ct_date` VALUES (225, 2021, 8, 4);
+INSERT INTO `ct_date` VALUES (226, 2021, 8, 5);
+INSERT INTO `ct_date` VALUES (227, 2021, 8, 6);
+INSERT INTO `ct_date` VALUES (228, 2021, 8, 7);
+INSERT INTO `ct_date` VALUES (229, 2021, 8, 8);
+INSERT INTO `ct_date` VALUES (230, 2021, 8, 9);
+INSERT INTO `ct_date` VALUES (231, 2021, 8, 10);
+INSERT INTO `ct_date` VALUES (232, 2021, 8, 11);
+INSERT INTO `ct_date` VALUES (233, 2021, 8, 12);
+INSERT INTO `ct_date` VALUES (234, 2021, 8, 13);
+INSERT INTO `ct_date` VALUES (235, 2021, 8, 14);
+INSERT INTO `ct_date` VALUES (236, 2021, 8, 15);
+INSERT INTO `ct_date` VALUES (237, 2021, 8, 16);
+INSERT INTO `ct_date` VALUES (238, 2021, 8, 17);
+INSERT INTO `ct_date` VALUES (239, 2021, 8, 18);
+INSERT INTO `ct_date` VALUES (240, 2021, 8, 19);
+INSERT INTO `ct_date` VALUES (241, 2021, 8, 20);
+INSERT INTO `ct_date` VALUES (242, 2021, 8, 21);
+INSERT INTO `ct_date` VALUES (243, 2021, 8, 22);
+INSERT INTO `ct_date` VALUES (244, 2021, 8, 23);
+INSERT INTO `ct_date` VALUES (245, 2021, 8, 24);
+INSERT INTO `ct_date` VALUES (246, 2021, 8, 25);
+INSERT INTO `ct_date` VALUES (247, 2021, 8, 26);
+INSERT INTO `ct_date` VALUES (248, 2021, 8, 27);
+INSERT INTO `ct_date` VALUES (249, 2021, 8, 28);
+INSERT INTO `ct_date` VALUES (250, 2021, 8, 29);
+INSERT INTO `ct_date` VALUES (251, 2021, 8, 30);
+INSERT INTO `ct_date` VALUES (252, 2021, 8, 31);
+INSERT INTO `ct_date` VALUES (253, 2021, 9, NULL);
+INSERT INTO `ct_date` VALUES (254, 2021, 9, 1);
+INSERT INTO `ct_date` VALUES (255, 2021, 9, 2);
+INSERT INTO `ct_date` VALUES (256, 2021, 9, 3);
+INSERT INTO `ct_date` VALUES (257, 2021, 9, 4);
+INSERT INTO `ct_date` VALUES (258, 2021, 9, 5);
+INSERT INTO `ct_date` VALUES (259, 2021, 9, 6);
+INSERT INTO `ct_date` VALUES (260, 2021, 9, 7);
+INSERT INTO `ct_date` VALUES (261, 2021, 9, 8);
+INSERT INTO `ct_date` VALUES (262, 2021, 9, 9);
+INSERT INTO `ct_date` VALUES (263, 2021, 9, 10);
+INSERT INTO `ct_date` VALUES (264, 2021, 9, 11);
+INSERT INTO `ct_date` VALUES (265, 2021, 9, 12);
+INSERT INTO `ct_date` VALUES (266, 2021, 9, 13);
+INSERT INTO `ct_date` VALUES (267, 2021, 9, 14);
+INSERT INTO `ct_date` VALUES (268, 2021, 9, 15);
+INSERT INTO `ct_date` VALUES (269, 2021, 9, 16);
+INSERT INTO `ct_date` VALUES (270, 2021, 9, 17);
+INSERT INTO `ct_date` VALUES (271, 2021, 9, 18);
+INSERT INTO `ct_date` VALUES (272, 2021, 9, 19);
+INSERT INTO `ct_date` VALUES (273, 2021, 9, 20);
+INSERT INTO `ct_date` VALUES (274, 2021, 9, 21);
+INSERT INTO `ct_date` VALUES (275, 2021, 9, 22);
+INSERT INTO `ct_date` VALUES (276, 2021, 9, 23);
+INSERT INTO `ct_date` VALUES (277, 2021, 9, 24);
+INSERT INTO `ct_date` VALUES (278, 2021, 9, 25);
+INSERT INTO `ct_date` VALUES (279, 2021, 9, 26);
+INSERT INTO `ct_date` VALUES (280, 2021, 9, 27);
+INSERT INTO `ct_date` VALUES (281, 2021, 9, 28);
+INSERT INTO `ct_date` VALUES (282, 2021, 9, 29);
+INSERT INTO `ct_date` VALUES (283, 2021, 9, 30);
+INSERT INTO `ct_date` VALUES (284, 2021, 10, NULL);
+INSERT INTO `ct_date` VALUES (285, 2021, 10, 1);
+INSERT INTO `ct_date` VALUES (286, 2021, 10, 2);
+INSERT INTO `ct_date` VALUES (287, 2021, 10, 3);
+INSERT INTO `ct_date` VALUES (288, 2021, 10, 4);
+INSERT INTO `ct_date` VALUES (289, 2021, 10, 5);
+INSERT INTO `ct_date` VALUES (290, 2021, 10, 6);
+INSERT INTO `ct_date` VALUES (291, 2021, 10, 7);
+INSERT INTO `ct_date` VALUES (292, 2021, 10, 8);
+INSERT INTO `ct_date` VALUES (293, 2021, 10, 9);
+INSERT INTO `ct_date` VALUES (294, 2021, 10, 10);
+INSERT INTO `ct_date` VALUES (295, 2021, 10, 11);
+INSERT INTO `ct_date` VALUES (296, 2021, 10, 12);
+INSERT INTO `ct_date` VALUES (297, 2021, 10, 13);
+INSERT INTO `ct_date` VALUES (298, 2021, 10, 14);
+INSERT INTO `ct_date` VALUES (299, 2021, 10, 15);
+INSERT INTO `ct_date` VALUES (300, 2021, 10, 16);
+INSERT INTO `ct_date` VALUES (301, 2021, 10, 17);
+INSERT INTO `ct_date` VALUES (302, 2021, 10, 18);
+INSERT INTO `ct_date` VALUES (303, 2021, 10, 19);
+INSERT INTO `ct_date` VALUES (304, 2021, 10, 20);
+INSERT INTO `ct_date` VALUES (305, 2021, 10, 21);
+INSERT INTO `ct_date` VALUES (306, 2021, 10, 22);
+INSERT INTO `ct_date` VALUES (307, 2021, 10, 23);
+INSERT INTO `ct_date` VALUES (308, 2021, 10, 24);
+INSERT INTO `ct_date` VALUES (309, 2021, 10, 25);
+INSERT INTO `ct_date` VALUES (310, 2021, 10, 26);
+INSERT INTO `ct_date` VALUES (311, 2021, 10, 27);
+INSERT INTO `ct_date` VALUES (312, 2021, 10, 28);
+INSERT INTO `ct_date` VALUES (313, 2021, 10, 29);
+INSERT INTO `ct_date` VALUES (314, 2021, 10, 30);
+INSERT INTO `ct_date` VALUES (315, 2021, 10, 31);
+INSERT INTO `ct_date` VALUES (316, 2021, 11, NULL);
+INSERT INTO `ct_date` VALUES (317, 2021, 11, 1);
+INSERT INTO `ct_date` VALUES (318, 2021, 11, 2);
+INSERT INTO `ct_date` VALUES (319, 2021, 11, 3);
+INSERT INTO `ct_date` VALUES (320, 2021, 11, 4);
+INSERT INTO `ct_date` VALUES (321, 2021, 11, 5);
+INSERT INTO `ct_date` VALUES (322, 2021, 11, 6);
+INSERT INTO `ct_date` VALUES (323, 2021, 11, 7);
+INSERT INTO `ct_date` VALUES (324, 2021, 11, 8);
+INSERT INTO `ct_date` VALUES (325, 2021, 11, 9);
+INSERT INTO `ct_date` VALUES (326, 2021, 11, 10);
+INSERT INTO `ct_date` VALUES (327, 2021, 11, 11);
+INSERT INTO `ct_date` VALUES (328, 2021, 11, 12);
+INSERT INTO `ct_date` VALUES (329, 2021, 11, 13);
+INSERT INTO `ct_date` VALUES (330, 2021, 11, 14);
+INSERT INTO `ct_date` VALUES (331, 2021, 11, 15);
+INSERT INTO `ct_date` VALUES (332, 2021, 11, 16);
+INSERT INTO `ct_date` VALUES (333, 2021, 11, 17);
+INSERT INTO `ct_date` VALUES (334, 2021, 11, 18);
+INSERT INTO `ct_date` VALUES (335, 2021, 11, 19);
+INSERT INTO `ct_date` VALUES (336, 2021, 11, 20);
+INSERT INTO `ct_date` VALUES (337, 2021, 11, 21);
+INSERT INTO `ct_date` VALUES (338, 2021, 11, 22);
+INSERT INTO `ct_date` VALUES (339, 2021, 11, 23);
+INSERT INTO `ct_date` VALUES (340, 2021, 11, 24);
+INSERT INTO `ct_date` VALUES (341, 2021, 11, 25);
+INSERT INTO `ct_date` VALUES (342, 2021, 11, 26);
+INSERT INTO `ct_date` VALUES (343, 2021, 11, 27);
+INSERT INTO `ct_date` VALUES (344, 2021, 11, 28);
+INSERT INTO `ct_date` VALUES (345, 2021, 11, 29);
+INSERT INTO `ct_date` VALUES (346, 2021, 11, 30);
+INSERT INTO `ct_date` VALUES (347, 2021, 12, NULL);
+INSERT INTO `ct_date` VALUES (348, 2021, 12, 1);
+INSERT INTO `ct_date` VALUES (349, 2021, 12, 2);
+INSERT INTO `ct_date` VALUES (350, 2021, 12, 3);
+INSERT INTO `ct_date` VALUES (351, 2021, 12, 4);
+INSERT INTO `ct_date` VALUES (352, 2021, 12, 5);
+INSERT INTO `ct_date` VALUES (353, 2021, 12, 6);
+INSERT INTO `ct_date` VALUES (354, 2021, 12, 7);
+INSERT INTO `ct_date` VALUES (355, 2021, 12, 8);
+INSERT INTO `ct_date` VALUES (356, 2021, 12, 9);
+INSERT INTO `ct_date` VALUES (357, 2021, 12, 10);
+INSERT INTO `ct_date` VALUES (358, 2021, 12, 11);
+INSERT INTO `ct_date` VALUES (359, 2021, 12, 12);
+INSERT INTO `ct_date` VALUES (360, 2021, 12, 13);
+INSERT INTO `ct_date` VALUES (361, 2021, 12, 14);
+INSERT INTO `ct_date` VALUES (362, 2021, 12, 15);
+INSERT INTO `ct_date` VALUES (363, 2021, 12, 16);
+INSERT INTO `ct_date` VALUES (364, 2021, 12, 17);
+INSERT INTO `ct_date` VALUES (365, 2021, 12, 18);
+INSERT INTO `ct_date` VALUES (366, 2021, 12, 19);
+INSERT INTO `ct_date` VALUES (367, 2021, 12, 20);
+INSERT INTO `ct_date` VALUES (368, 2021, 12, 21);
+INSERT INTO `ct_date` VALUES (369, 2021, 12, 22);
+INSERT INTO `ct_date` VALUES (370, 2021, 12, 23);
+INSERT INTO `ct_date` VALUES (371, 2021, 12, 24);
+INSERT INTO `ct_date` VALUES (372, 2021, 12, 25);
+INSERT INTO `ct_date` VALUES (373, 2021, 12, 26);
+INSERT INTO `ct_date` VALUES (374, 2021, 12, 27);
+INSERT INTO `ct_date` VALUES (375, 2021, 12, 28);
+INSERT INTO `ct_date` VALUES (376, 2021, 12, 29);
+INSERT INTO `ct_date` VALUES (377, 2021, 12, 30);
+INSERT INTO `ct_date` VALUES (378, 2021, 12, 31);
+
+-- ----------------------------
+-- Table structure for ct_user
+-- ----------------------------
+DROP TABLE IF EXISTS `ct_user`;
+CREATE TABLE `ct_user`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `tel` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 25 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of ct_user
+-- ----------------------------
+INSERT INTO `ct_user` VALUES (1, '19313925217', '李雁');
+INSERT INTO `ct_user` VALUES (2, '14410679238', '卫艺');
+INSERT INTO `ct_user` VALUES (3, '19565082510', '仰莉');
+INSERT INTO `ct_user` VALUES (4, '19154926260', '陶欣悦');
+INSERT INTO `ct_user` VALUES (5, '14397114174', '施梅梅');
+INSERT INTO `ct_user` VALUES (6, '14930423697', '金虹霖');
+INSERT INTO `ct_user` VALUES (7, '17336673697', '魏明艳');
+INSERT INTO `ct_user` VALUES (8, '16160892861', '华贞');
+INSERT INTO `ct_user` VALUES (9, '17405139883', '华啟倩');
+INSERT INTO `ct_user` VALUES (10, '15647679901', '仲采绿');
+INSERT INTO `ct_user` VALUES (11, '15781588029', '卫丹');
+INSERT INTO `ct_user` VALUES (12, '16574556259', '戚丽红');
+INSERT INTO `ct_user` VALUES (13, '17885275338', '何翠柔');
+INSERT INTO `ct_user` VALUES (14, '16569963779', '钱溶艳');
+INSERT INTO `ct_user` VALUES (15, '18101213362', '钱琳');
+INSERT INTO `ct_user` VALUES (16, '15884588694', '缪静欣');
+INSERT INTO `ct_user` VALUES (17, '15280214634', '焦秋菊');
+INSERT INTO `ct_user` VALUES (18, '13319935953', '吕访琴');
+INSERT INTO `ct_user` VALUES (19, '19342117869', '沈丹');
+INSERT INTO `ct_user` VALUES (20, '18840172592', '褚美丽');
+INSERT INTO `ct_user` VALUES (21, '14171709460', '孙怡');
+INSERT INTO `ct_user` VALUES (22, '15244749863', '许婵');
+INSERT INTO `ct_user` VALUES (23, '19602240179', '曹红恋');
+INSERT INTO `ct_user` VALUES (24, '19683537146', '吕柔');
+INSERT INTO `ct_user` VALUES (25, '15305526350', '冯怜云');
+
+SET FOREIGN_KEY_CHECKS = 1;
