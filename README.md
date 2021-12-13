@@ -215,6 +215,16 @@
 | :------- | :----------------------------------------------------------: |
 | 数据模拟 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E6%A8%A1%E6%8B%9F.md) |
 | 数据采集 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E9%87%87%E9%9B%86.md) |
-| 数据分析 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.md) |
-| 数据展示 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md) |
+| 数据分析 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.md)（未完成） |
+| 数据展示 | [:thumbsup:](https://github.com/LelandYan/Big_Data_Project/blob/main/doc/%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)（未完成） |
+
+## 7. 项目不足
+
+1. 首先kafka的数据存储的位置可以进行修改，因为项目中将kafka中的安装根路径修改，导致数据存储和kafka安装目录不是同一个目录
+2. maven的依赖关系有点乱，maven的学习还停留在使用阶段，一个项目中子模块之间的依赖关系不清晰，可以重写熟悉项目中各个子模块的依赖关系，删除不必要的依赖关系，减少jar的大小
+3. mysql的jar和redis对应jar的版本问题，项目中使用的是mysql8和redis3，但是hadoop3需要的依赖则是老版本的jar依赖，但是这里没有出现问题，连接正常。但是在后面的ssm的web项目中，则需要更新为对应的jar包，这里可能因为ssm项目依赖冲突导致，这里可以修改前面hadoop里面的mysql和redis的jar包进行测试
+4. 数据可视化不足，只是简单的测试了从数据库mysql和缓存redis中拿出数据存入mysql以便后续数据可视化的使用
+5. 封装不足，虽然项目中使用注解封装对象，但是后面的使用协处理的使用依然使用的手动编写对象
+6. 业务不足，模拟的生成的数据，可以模拟生成更多的指标，例如亲密度等
+7. 数据流依然不是一直通的，模拟数据是不断生成的，数据采集也是动态的，但是分析不是动态的，数据展示也不是动态，所以可以设置定时器，每隔一段时间，就从hbase中取数据，进行分析，存入mysql和redis中，进行数据更新展示
 
